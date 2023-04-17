@@ -1,0 +1,69 @@
+.top-div{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-div h1{
+     font-size: 5vh; /* make it small using media query later */
+}
+
+.text-div{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 2.5vh;
+}
+
+.chitkara-img{
+   width: 60%;
+   height: auto;
+
+}
+
+.table-div{
+    width: 60%;
+    margin: auto;
+}
+
+table {
+    margin-top: 5vh;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.courses{
+    text-align: left;
+}
+
+.form-div{
+    width: 60%;
+    margin: auto;
+}
+
+.form-form-div{
+    width: 95%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+    .top-div h1{
+        font-size: 4vh;
+    }
+    
+    .chitkara-img{
+        width: 80%;
+        height: auto;
+    }
+}
